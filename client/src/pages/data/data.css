@@ -1,0 +1,170 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.DataTableTitle {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.tasksTable {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.tasksTable th,
+.tasksTable td {
+	border: 1px solid #ccc;
+	padding: 12px;
+	text-align: left;
+}
+
+.tasksTable th {
+	background-color: #505050;
+}
+
+.tasksTable tr:hover {
+	background-color: #f0f8ff;
+}
+
+.dataTable {
+	margin-top: 20px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th,
+table td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+table thead {
+	background: #fc6e51;
+	color: white;
+}
+
+td:hover {
+	background: #f1f1f1;
+}
+
+.highlightRow {
+	background-color: #f0f0f0;
+}
+
+.map {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modalBackdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modalFormTask {
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	overflow-y: auto;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.highlightRow {
+	background-color: #f0f0f0;
+}
+
+.mapContainer {
+	width: 100%;
+	height: 500px;
+}
+
+.filter-panel {
+	display: flex;
+	justify-content: center;
+	gap: 16px;
+	padding: 8px;
+	background-color: #7c7c7c;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.filter-item {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	font-size: 14px;
+	color: #333;
+}
+
+.filter-item label {
+	font-weight: 600;
+	color: #222;
+	text-align: center;
+}
+
+.filter-item input[type='text'],
+.filter-item input[type='date'],
+.filter-item select {
+	padding: 8px 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	outline: none;
+	transition: border 0.2s, box-shadow 0.2s;
+	background-color: #fff;
+}
+
+.filter-item input[type='text']:focus,
+.filter-item input[type='date']:focus,
+.filter-item select:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.date-range {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.taskForm {
+	position: absolute;
+	top: 4rem;
+	width: 80%;
+	z-index: 1;
+}
+
+.infoContainer {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+}

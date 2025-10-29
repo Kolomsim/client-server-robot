@@ -1,0 +1,32 @@
+# Node/Vite
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+client/.env.*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Python
+server/__pycache__/
+server/*.pyc
+server/venv/
+venv/
+.env
+.env.*
+*.egg-info
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Misc
+npm-debug.log
+yarn-error.log
+pnpm-lock.yaml
